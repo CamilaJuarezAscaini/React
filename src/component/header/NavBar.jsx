@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import './styles.css';
+import CartWidget from "./CartWidget";
 
 
 const NavBar = ({ logo }) => {
@@ -17,6 +18,7 @@ const NavBar = ({ logo }) => {
                     <li><a href="#">Plantas</a></li>
                     <li><a href="#">Descubre</a></li>
                     <li><a href="#">Contacto</a></li>
+                    <li><CartWidget></CartWidget></li>
                 </ul>
             </nav>
         </header>

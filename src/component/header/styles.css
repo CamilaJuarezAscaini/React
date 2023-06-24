@@ -98,6 +98,14 @@
     margin-top: 15px;
 }
 
+.CartWidget{
+    display: inline;
+}
+
+.numFijo{
+    margin-top: 20px;
+}
+
 @media (min-width: 768px) {
     .header {
         height: 100px;

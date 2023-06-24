@@ -8,8 +8,9 @@ function App() {
 
   return (
     <div>
-      <NavBar logo="MonsterMarket"  />
-      <ItemListContainer/>
+      <NavBar logo="MonsterMarket" />
+      <ItemListContainer />
+
     </div>
   )
 }
