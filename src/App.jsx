@@ -1,12 +1,15 @@
 import './App.css'
-import Header from './component/header'
+import NavBar from './component/header/NavBar'
+import ItemListContainer from './ItemListContainer'
+
 
 
 function App() {
 
   return (
     <div>
-      <Header logo="MonsterMarket" />
+      <NavBar logo="MonsterMarket"  />
+      <ItemListContainer/>
     </div>
   )
 }
